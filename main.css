@@ -1,0 +1,538 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+@-webkit-keyframes setW {
+  0% {
+    width: 0%;
+  }
+}
+
+@keyframes setW {
+  0% {
+    width: 0%;
+  }
+}
+hr {
+  margin-left: 10px;
+  width: 100%;
+}
+hr:nth-child(1) {
+  -webkit-animation: setW 2.1s infinite;
+          animation: setW 2.1s infinite;
+  border-color: silver;
+}
+hr:nth-child(2) {
+  -webkit-animation: setW 10.8s infinite;
+          animation: setW 10.8s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(3) {
+  -webkit-animation: setW 2.3s infinite;
+          animation: setW 2.3s infinite;
+  border-color: silver;
+}
+hr:nth-child(4) {
+  -webkit-animation: setW 10.6s infinite;
+          animation: setW 10.6s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(5) {
+  -webkit-animation: setW 2.5s infinite;
+          animation: setW 2.5s infinite;
+  border-color: silver;
+}
+hr:nth-child(6) {
+  -webkit-animation: setW 10.4s infinite;
+          animation: setW 10.4s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(7) {
+  -webkit-animation: setW 2.7s infinite;
+          animation: setW 2.7s infinite;
+  border-color: silver;
+}
+hr:nth-child(8) {
+  -webkit-animation: setW 10.2s infinite;
+          animation: setW 10.2s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(9) {
+  -webkit-animation: setW 2.9s infinite;
+          animation: setW 2.9s infinite;
+  border-color: silver;
+}
+hr:nth-child(10) {
+  -webkit-animation: setW 10s infinite;
+          animation: setW 10s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(11) {
+  -webkit-animation: setW 3.1s infinite;
+          animation: setW 3.1s infinite;
+  border-color: silver;
+}
+hr:nth-child(12) {
+  -webkit-animation: setW 9.8s infinite;
+          animation: setW 9.8s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(13) {
+  -webkit-animation: setW 3.3s infinite;
+          animation: setW 3.3s infinite;
+  border-color: silver;
+}
+hr:nth-child(14) {
+  -webkit-animation: setW 9.6s infinite;
+          animation: setW 9.6s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(15) {
+  -webkit-animation: setW 3.5s infinite;
+          animation: setW 3.5s infinite;
+  border-color: silver;
+}
+hr:nth-child(16) {
+  -webkit-animation: setW 9.4s infinite;
+          animation: setW 9.4s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(17) {
+  -webkit-animation: setW 3.7s infinite;
+          animation: setW 3.7s infinite;
+  border-color: silver;
+}
+hr:nth-child(18) {
+  -webkit-animation: setW 9.2s infinite;
+          animation: setW 9.2s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(19) {
+  -webkit-animation: setW 3.9s infinite;
+          animation: setW 3.9s infinite;
+  border-color: silver;
+}
+hr:nth-child(20) {
+  -webkit-animation: setW 9s infinite;
+          animation: setW 9s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(21) {
+  -webkit-animation: setW 4.1s infinite;
+          animation: setW 4.1s infinite;
+  border-color: silver;
+}
+hr:nth-child(22) {
+  -webkit-animation: setW 8.8s infinite;
+          animation: setW 8.8s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(23) {
+  -webkit-animation: setW 4.3s infinite;
+          animation: setW 4.3s infinite;
+  border-color: silver;
+}
+hr:nth-child(24) {
+  -webkit-animation: setW 8.6s infinite;
+          animation: setW 8.6s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(25) {
+  -webkit-animation: setW 4.5s infinite;
+          animation: setW 4.5s infinite;
+  border-color: silver;
+}
+hr:nth-child(26) {
+  -webkit-animation: setW 8.4s infinite;
+          animation: setW 8.4s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(27) {
+  -webkit-animation: setW 4.7s infinite;
+          animation: setW 4.7s infinite;
+  border-color: silver;
+}
+hr:nth-child(28) {
+  -webkit-animation: setW 8.2s infinite;
+          animation: setW 8.2s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(29) {
+  -webkit-animation: setW 4.9s infinite;
+          animation: setW 4.9s infinite;
+  border-color: silver;
+}
+hr:nth-child(30) {
+  -webkit-animation: setW 8s infinite;
+          animation: setW 8s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(31) {
+  -webkit-animation: setW 5.1s infinite;
+          animation: setW 5.1s infinite;
+  border-color: silver;
+}
+hr:nth-child(32) {
+  -webkit-animation: setW 7.8s infinite;
+          animation: setW 7.8s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(33) {
+  -webkit-animation: setW 5.3s infinite;
+          animation: setW 5.3s infinite;
+  border-color: silver;
+}
+hr:nth-child(34) {
+  -webkit-animation: setW 7.6s infinite;
+          animation: setW 7.6s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(35) {
+  -webkit-animation: setW 5.5s infinite;
+          animation: setW 5.5s infinite;
+  border-color: silver;
+}
+hr:nth-child(36) {
+  -webkit-animation: setW 7.4s infinite;
+          animation: setW 7.4s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(37) {
+  -webkit-animation: setW 5.7s infinite;
+          animation: setW 5.7s infinite;
+  border-color: silver;
+}
+hr:nth-child(38) {
+  -webkit-animation: setW 7.2s infinite;
+          animation: setW 7.2s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(39) {
+  -webkit-animation: setW 5.9s infinite;
+          animation: setW 5.9s infinite;
+  border-color: silver;
+}
+hr:nth-child(40) {
+  -webkit-animation: setW 7s infinite;
+          animation: setW 7s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(41) {
+  -webkit-animation: setW 6.1s infinite;
+          animation: setW 6.1s infinite;
+  border-color: silver;
+}
+hr:nth-child(42) {
+  -webkit-animation: setW 6.8s infinite;
+          animation: setW 6.8s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(43) {
+  -webkit-animation: setW 6.3s infinite;
+          animation: setW 6.3s infinite;
+  border-color: silver;
+}
+hr:nth-child(44) {
+  -webkit-animation: setW 6.6s infinite;
+          animation: setW 6.6s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(45) {
+  -webkit-animation: setW 6.5s infinite;
+          animation: setW 6.5s infinite;
+  border-color: silver;
+}
+hr:nth-child(46) {
+  -webkit-animation: setW 6.4s infinite;
+          animation: setW 6.4s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(47) {
+  -webkit-animation: setW 6.7s infinite;
+          animation: setW 6.7s infinite;
+  border-color: silver;
+}
+hr:nth-child(48) {
+  -webkit-animation: setW 6.2s infinite;
+          animation: setW 6.2s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(49) {
+  -webkit-animation: setW 6.9s infinite;
+          animation: setW 6.9s infinite;
+  border-color: silver;
+}
+hr:nth-child(50) {
+  -webkit-animation: setW 6s infinite;
+          animation: setW 6s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(51) {
+  -webkit-animation: setW 7.1s infinite;
+          animation: setW 7.1s infinite;
+  border-color: silver;
+}
+hr:nth-child(52) {
+  -webkit-animation: setW 5.8s infinite;
+          animation: setW 5.8s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(53) {
+  -webkit-animation: setW 7.3s infinite;
+          animation: setW 7.3s infinite;
+  border-color: silver;
+}
+hr:nth-child(54) {
+  -webkit-animation: setW 5.6s infinite;
+          animation: setW 5.6s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(55) {
+  -webkit-animation: setW 7.5s infinite;
+          animation: setW 7.5s infinite;
+  border-color: silver;
+}
+hr:nth-child(56) {
+  -webkit-animation: setW 5.4s infinite;
+          animation: setW 5.4s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(57) {
+  -webkit-animation: setW 7.7s infinite;
+          animation: setW 7.7s infinite;
+  border-color: silver;
+}
+hr:nth-child(58) {
+  -webkit-animation: setW 5.2s infinite;
+          animation: setW 5.2s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(59) {
+  -webkit-animation: setW 7.9s infinite;
+          animation: setW 7.9s infinite;
+  border-color: silver;
+}
+hr:nth-child(60) {
+  -webkit-animation: setW 5s infinite;
+          animation: setW 5s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(61) {
+  -webkit-animation: setW 8.1s infinite;
+          animation: setW 8.1s infinite;
+  border-color: silver;
+}
+hr:nth-child(62) {
+  -webkit-animation: setW 4.8s infinite;
+          animation: setW 4.8s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(63) {
+  -webkit-animation: setW 8.3s infinite;
+          animation: setW 8.3s infinite;
+  border-color: silver;
+}
+hr:nth-child(64) {
+  -webkit-animation: setW 4.6s infinite;
+          animation: setW 4.6s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(65) {
+  -webkit-animation: setW 8.5s infinite;
+          animation: setW 8.5s infinite;
+  border-color: silver;
+}
+hr:nth-child(66) {
+  -webkit-animation: setW 4.4s infinite;
+          animation: setW 4.4s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(67) {
+  -webkit-animation: setW 8.7s infinite;
+          animation: setW 8.7s infinite;
+  border-color: silver;
+}
+hr:nth-child(68) {
+  -webkit-animation: setW 4.2s infinite;
+          animation: setW 4.2s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(69) {
+  -webkit-animation: setW 8.9s infinite;
+          animation: setW 8.9s infinite;
+  border-color: silver;
+}
+hr:nth-child(70) {
+  -webkit-animation: setW 4s infinite;
+          animation: setW 4s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(71) {
+  -webkit-animation: setW 9.1s infinite;
+          animation: setW 9.1s infinite;
+  border-color: silver;
+}
+hr:nth-child(72) {
+  -webkit-animation: setW 3.8s infinite;
+          animation: setW 3.8s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(73) {
+  -webkit-animation: setW 9.3s infinite;
+          animation: setW 9.3s infinite;
+  border-color: silver;
+}
+hr:nth-child(74) {
+  -webkit-animation: setW 3.6s infinite;
+          animation: setW 3.6s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(75) {
+  -webkit-animation: setW 9.5s infinite;
+          animation: setW 9.5s infinite;
+  border-color: silver;
+}
+hr:nth-child(76) {
+  -webkit-animation: setW 3.4s infinite;
+          animation: setW 3.4s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(77) {
+  -webkit-animation: setW 9.7s infinite;
+          animation: setW 9.7s infinite;
+  border-color: silver;
+}
+hr:nth-child(78) {
+  -webkit-animation: setW 3.2s infinite;
+          animation: setW 3.2s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(79) {
+  -webkit-animation: setW 9.9s infinite;
+          animation: setW 9.9s infinite;
+  border-color: silver;
+}
+hr:nth-child(80) {
+  -webkit-animation: setW 3s infinite;
+          animation: setW 3s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(81) {
+  -webkit-animation: setW 10.1s infinite;
+          animation: setW 10.1s infinite;
+  border-color: silver;
+}
+hr:nth-child(82) {
+  -webkit-animation: setW 2.8s infinite;
+          animation: setW 2.8s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(83) {
+  -webkit-animation: setW 10.3s infinite;
+          animation: setW 10.3s infinite;
+  border-color: silver;
+}
+hr:nth-child(84) {
+  -webkit-animation: setW 2.6s infinite;
+          animation: setW 2.6s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(85) {
+  -webkit-animation: setW 10.5s infinite;
+          animation: setW 10.5s infinite;
+  border-color: silver;
+}
+hr:nth-child(86) {
+  -webkit-animation: setW 2.4s infinite;
+          animation: setW 2.4s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(87) {
+  -webkit-animation: setW 10.7s infinite;
+          animation: setW 10.7s infinite;
+  border-color: silver;
+}
+hr:nth-child(88) {
+  -webkit-animation: setW 2.2s infinite;
+          animation: setW 2.2s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(89) {
+  -webkit-animation: setW 10.9s infinite;
+          animation: setW 10.9s infinite;
+  border-color: silver;
+}
+hr:nth-child(90) {
+  -webkit-animation: setW 2s infinite;
+          animation: setW 2s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(91) {
+  -webkit-animation: setW 11.1s infinite;
+          animation: setW 11.1s infinite;
+  border-color: silver;
+}
+hr:nth-child(92) {
+  -webkit-animation: setW 1.8s infinite;
+          animation: setW 1.8s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(93) {
+  -webkit-animation: setW 11.3s infinite;
+          animation: setW 11.3s infinite;
+  border-color: silver;
+}
+hr:nth-child(94) {
+  -webkit-animation: setW 1.6s infinite;
+          animation: setW 1.6s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(95) {
+  -webkit-animation: setW 11.5s infinite;
+          animation: setW 11.5s infinite;
+  border-color: silver;
+}
+hr:nth-child(96) {
+  -webkit-animation: setW 1.4s infinite;
+          animation: setW 1.4s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(97) {
+  -webkit-animation: setW 11.7s infinite;
+          animation: setW 11.7s infinite;
+  border-color: silver;
+}
+hr:nth-child(98) {
+  -webkit-animation: setW 1.2s infinite;
+          animation: setW 1.2s infinite;
+  border-color: steelblue;
+}
+hr:nth-child(99) {
+  -webkit-animation: setW 11.9s infinite;
+          animation: setW 11.9s infinite;
+  border-color: silver;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid red;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+}
+@keyframes setW{
+    0%{
+        width: 0%;
+    }
+}
+hr{
+    margin-left: 10px;
+    width: 100%;
+    @for $i from 1 to 100{
+        &:nth-child(#{$i}){
+            @if $i % 2 == 0 {
+                animation: setW (11 - ($i * 0.1)) + s infinite;
+                border-color: steelblue;
+            } @else {
+                animation: setW (2 + ($i * 0.1)) + s infinite;
+                border-color: silver;
+            }
+        }
+    }
+}
+
+table {
+    th,td{
+        padding: 12px;
+        border: 1px solid red;
+    }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+
+    <ul id="listPoke"></ul>
+    <div class="form">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tên</th>
+                    <th>Nội tại</th>
+                    <th>Mô tả</th>
+                </tr>
+            </thead>
+            <tbody id="kk">
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        const tbody = document.getElementById('kk');
+        const pokeList = document.getElementById('listPoke');
+        const xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0");
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    let listObject = JSON.parse(xhr.responseText);
+                    console.log("log 1", listObject.results);
+                    // console.log("log 2", listObject.results[0].name);
+                    // console.log("log 2", listObject.results[0].url);
+                    // document.getElementById('kk').innerHTML += `<tr><td>${(listObject.results[0].index)}</td><td>${(listObject.results[0].name)}</td></tr>`
+                    console.log('asd', listObject.results[0].name);
+
+
+
+                    for (let i = 0; i < 10; i++) {
+                        const getApi = listObject.results[i].url;
+                        let hoangKhongThongMinh;
+                        fetch(getApi)
+                            .then((response) => response.json())
+                            .then((listPost) => {
+                                const getApi2 = listPost.abilities[0].ability.url;
+
+                                for (let listAbilities = 0; listAbilities < listPost.abilities.length; ListAbilities++) {
+                                    tbody.innerHTML +=
+                                        `
+                                    <tr>
+                                        <td>${(i + 1)}</td>
+                                        <td>${(listObject.results[i].name)}</td>
+                                        <td>${(listPost.abilities[0].ability.name)}</td>
+                                        <td>${(listPost.abilities[0].ability.url)}</td>
+                                    </tr>
+                                `
+                                }
+                                fetch(getApi2)
+                                    .then((response) => response.json())
+                                    .then((listSkill) => {
+                                        console.log(listSkill.effect_entries[1].short_effect);
+                                        // tbody.innerHTML += 
+                                        // `
+                                        //     <tr>
+                                        //         <td>${(i+1)}</td>
+                                        //         <td>${(listObject.results[i].name)}</td>
+                                        //         <td>${(listPost.abilities[0].ability.name)}</td>
+                                        //         <td>${(listPost.abilities[0].ability.url)}</td>
+                                        //     </tr>
+                                        // `
+                                    })
+                            })
+                            .catch((error) => {
+                                console.log(error);
+                            })
+                            .finally(() => {
+                                // setLoading(false)
+                            })
+                    }
+
+                    // const hoangKhongThongMinh = async () => {
+                    //     try {
+                    //         await 
+                    //     } catch (error) {
+                    //         console.log(error);
+                    //     } finally {
+                    //         // setLoading(false)
+                    //     }
+                    // }
+                }
+            }
+        }
+        xhr.send();
+        console.log("run");
+    </script>
+</body>
+
+</html>
